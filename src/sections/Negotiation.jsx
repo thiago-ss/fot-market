@@ -12,7 +12,6 @@ export default function Negotiation() {
         className="w-[50%]"
       >
         <div className="flex flex-col gap-3">
-          {/* <Typed className="font-bold mx-auto text-[30px] uppercase text-white pt-[75px]" strings={['COMECE A NEGOCIAR AGORA MESMO']} typeSpeed={30}/> */}
           <motion.h1 variants={textVariant(0.5)} className="font-bold mx-auto text-[30px] uppercase text-white pt-[75px]">comece a negociar agora mesmo</motion.h1>
         </div>
         <div className="flex flex-col gap-[30px] mt-[50px] ml-[75px] pb-[115px]">
