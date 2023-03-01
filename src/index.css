@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body, html {
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: #171614;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid #171614;
+}
+
+.button1 {
+  background: #c6aa0e;
+  font-family: "Nunito", sans-serif;
+  padding: 11px 16px;
+  border-radius: 8px;
+  color: #3c3400;
+  font-weight: 700;
+}
+
+.button2 {
+  padding: 15px 22px;
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  height: 60px;
+  width: 180px;
+  transition: 0.5s transform;
+}
+
+.button2:hover {
+  transform: scale(1.1);
+}
+
+.gradient-1 {
+  background-color: #7b7b7b;
+  position: absolute;
+  height: 10px;
+  width: 200px;
+  left: 0%;
+  top: 35%;
+  filter: blur(161px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: 0;
+}
+
+.gradient-2 {
+  background-color: #7b7b7b;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  right: 0%;
+  top: 15%;
+  filter: blur(161px);
+  z-index: 0;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.gradient-3 {
+  background-color: #7b7b7b;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  right: 0%;
+  top: 40%;
+  filter: blur(161px);
+  z-index: 0;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.gradient-4 {
+  background-color: #7b7b7b;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  left: 0%;
+  top: 40%;
+  filter: blur(161px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: 0;
+}
+
+.gradient-5 {
+  background-color: #7b7b7b;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  right: 0%;
+  top: 80%;
+  filter: blur(161px);
+  z-index: 0;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
