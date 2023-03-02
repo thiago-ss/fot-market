@@ -4,7 +4,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 export default function Negotiation() {
   return (
-    <section className="min-h-[70vh] w-full bg-black font-poppins flex">
+    <section className="h-[655px] w-full bg-black font-poppins flex">
       <motion.div
         initial="hidden"
         whileInView="show"

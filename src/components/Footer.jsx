@@ -3,7 +3,7 @@ import logo from '/logo.png'
 
 export default function Footer() {
   return (
-    <section className="min-h-[60vh] bg-[#181818] py-[50px] flex flex-col px-[14%]">
+    <section className="h-[650px] bg-[#181818] py-[50px] flex flex-col px-[14%]">
       <div className="flex flex-col justify-center items-center gap-[20px]">
         <a href="">
           <img src={logo} alt="FOT Markets logo" />

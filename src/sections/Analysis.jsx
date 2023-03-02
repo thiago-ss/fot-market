@@ -15,7 +15,7 @@ export default function Analysis() {
       >
         <div className="gradient-3" />
         <div className="gradient-4" />
-        <div className="bg-[#EBEDEE] min-h-[60vh] font-poppins pt-[37px] px-[285px]">
+        <div className="bg-[#EBEDEE] h-[550px] font-poppins pt-[37px] px-[285px]">
           <motion.h1 variants={textVariant(0.2)} className="font-bold uppercase text-center text-[30px]">Condições de trading</motion.h1>
           <motion.div variants={textVariant(0.3)} className="w-[400px] h-[2px] bg-[#000] mx-auto" />
           <motion.h1 variants={textVariant(0.4)} className="font-bold uppercase text-center text-[30px] text-[#C6AA0E]">Análise de mercado</motion.h1>

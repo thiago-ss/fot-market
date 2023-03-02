@@ -5,7 +5,7 @@ import { textVariant } from '../utils/motion';
 export default function Hero() {
   return (
     <section
-      className="bg-[url('/bg-paralax1.jpg')] min-h-[50vh] bg-cover w-full bg-no-repeat pt-[25px]"
+      className="bg-[url('/bg-paralax1.jpg')] h-[500px] bg-cover w-full bg-no-repeat pt-[25px] sm:h-[100%]"
       id='hero'
     >
       <motion.div 
@@ -16,7 +16,7 @@ export default function Hero() {
       >
         <motion.h1 
           variants={textVariant(0.4)} 
-          className="max-w-[500px] text-[30px] font-bold leading-[48px] sm:text-[20px] "
+          className="max-w-[500px] text-[30px] font-bold leading-[48px] sm:text-[18px] "
         >
           NEGOCIAÇÃO FOREX, ÍNDICES,
           CFDs CRIPTOS E MUITO MAIS

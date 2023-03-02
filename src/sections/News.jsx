@@ -7,7 +7,7 @@ export default function News() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="min-h-[40vh] font-poppins flex justify-around pt-[50px] bg-[#EBEDEE]"
+      className="h-[500px] font-poppins flex justify-around pt-[50px] bg-[#EBEDEE]"
     >
       <div className="gradient-5"/>
       <motion.div
@@ -23,7 +23,7 @@ export default function News() {
         </div>
         <a className="py-[20px] bg-[#C6AA0E] text-white rounded-lg text-center font-bold w-[200px] sm:mb-[30px] md:mb-[30px]">Money Now News</a>
       </motion.div>
-      <img src="/bg-news.png" alt="Smartphone" className='h-[400px] w-[400px] sm:hidden md:hidden' />
+      <img src="/bg-news.png" alt="Smartphone" className='h-[450px] w-[400px] sm:hidden md:hidden' />
     </motion.section>
   )
 }

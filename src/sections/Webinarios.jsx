@@ -13,7 +13,7 @@ export default function Webinarios() {
         viewport={{ once: false, amount: 0.25 }}
         className="overflow-hidden"
       >
-        <div className="min-h-screen-[50vh] bg-[url('/bg-webinararios.png')] bg-cover bg-no-repeat">
+        <div className="h-[750px] bg-[url('/bg-webinararios.png')] bg-cover bg-no-repeat">
           <motion.div
             variants={fadeIn('right', 'tween', 0.2, 1)}
             className="flex flex-col gap-6 font-poppins text-white p-[170px]"
