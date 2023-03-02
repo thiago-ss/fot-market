@@ -116,3 +116,50 @@ export const faq = [
     label: 'Pode escolher um curso, estudar, mas também conta com nossas salas ao vivo, webinários e em breve teremos cursos e eventos presenciais.'
   }
 ]
+
+export const getInTouch1 = [
+  {
+    id: 1,
+    imgUrl: '/phone-icon.svg',
+    label: '0800 123456789'
+  },
+  {
+    id: 2,
+    imgUrl: '/@-icon.svg',
+    label: 'fotmarkets@fotmarkets.com'
+  }
+]
+
+export const getInTouch2 = [
+  {
+    id: 1,
+    imgUrl: '/chat-icon.svg',
+    label: 'Acesse o chat'
+  },
+  {
+    id: 2,
+    imgUrl: '/headphone-icon.svg',
+    label: 'Callcenter'
+  }
+]
+
+export const footerContent1 = [
+  'Documentos legais',
+  'Termos e condições',
+  'Bônus de negociação e depósitos',
+  'Programa de bônus'
+]
+
+export const footerContent2 = [
+  'Programa de fidelidade',
+  'Termos e condições VPS',
+  'Prevenção de branqueamento de capitais',
+  'Política de execução de ordens'
+]
+
+export const footerContent3 = [
+  'Divulgação de risco para instrumentos financeiros',
+  'Polítia de conflito de interesse',
+  'Procedimentos para tratamento de reclamações',
+  'Programa de afiliado'
+]

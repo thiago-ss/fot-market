@@ -23,7 +23,7 @@ function App() {
       <News />
       <About />
       <Faq />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

@@ -110,3 +110,9 @@ body::-webkit-scrollbar-thumb {
   z-index: 0;
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
+.footer-line {
+  width: 1100px;
+  height: 1px;
+  background-color: white;
+}
