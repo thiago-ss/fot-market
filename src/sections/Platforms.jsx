@@ -17,7 +17,7 @@ export default function Platforms() {
           </p>
           <img src="/line.svg" alt="Line" className=" mt-5 mb-5" />
           <div className="flex items-center gap-[45px]">
-            <img src="/Metatrade-SVG.svg" alt="Metatrader 5 logo" className=" w-60" />
+            <img src="/Metatrade-SVG.svg" alt="Metatrader 5 logo" className="w-60" />
             <div className="text-center mt-[10px]">
               <img src="/windows.svg" alt="Windows logo" />
               <p className="text-black">PC</p>

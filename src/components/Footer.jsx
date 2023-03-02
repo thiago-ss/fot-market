@@ -3,7 +3,7 @@ import logo from '/logo.png'
 
 export default function Footer() {
   return (
-    <section className="min-h-[80vh] bg-[#181818] py-[50px] flex flex-col px-[14%]">
+    <section className="min-h-[60vh] bg-[#181818] py-[50px] flex flex-col px-[14%]">
       <div className="flex flex-col justify-center items-center gap-[20px]">
         <a href="">
           <img src={logo} alt="FOT Markets logo" />
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
         <div className="footer-line" />
       </div>
-      <div className="flex flex-col font-montserrat font-bold mt-[20px]">
+      <div className="flex flex-col font-montserrat font-bold mt-[20px] mb-[10px]">
           <h1 className='text-white text-[25px]'>REGULAMENTAÇÃO</h1>
           <p className='text-[14px] text-[#7B7B7B]'>
             Estamos regulamentados pela comissão de serviços
@@ -38,19 +38,19 @@ export default function Footer() {
           </p>
       </div>
       <div className="flex justify-between font-poppins font-bold text-white">
-        <div className='flex flex-col max-w-[250px]'>
+        <div className='flex flex-col max-w-[250px] gap-5'>
           {footerContent1.map((item, index) => (
             <p>{item}</p>
           ))}
         </div>
 
-        <div className='flex flex-col max-w-[250px]'>
+        <div className='flex flex-col max-w-[250px] gap-5'>
           {footerContent2.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
         </div>
 
-        <div className='flex flex-col max-w-[250px]'>
+        <div className='flex flex-col max-w-[250px] gap-5'>
           {footerContent3.map((item, index) => (
             <p key={index}>{item}</p>
           ))}

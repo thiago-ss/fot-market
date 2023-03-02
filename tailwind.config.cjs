@@ -14,7 +14,6 @@ theme: {
       "hero": "url('/hero-image.png')",
     },
   },
-},
 screens: {
   'sm': { 'max': "374px" },
 
@@ -26,6 +25,7 @@ screens: {
 
   "2xl": { 'min': "1536px" },
 }, 
+},
 }
   
 

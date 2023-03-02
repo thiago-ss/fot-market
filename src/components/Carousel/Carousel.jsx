@@ -16,7 +16,7 @@ const Carousel = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="container"
+     
     >
       <motion.h1 variants={textVariant(0.5)} className="text-white font-bold text-[45px] text-center mt-[30px]">TUTORIAIS</motion.h1>
 
@@ -28,20 +28,20 @@ const Carousel = () => (
           <EmblaCarousel slides={SLIDES} options={OPTIONS} />
         </div>
       </motion.div>
-      <div className="flex flex-col gap-[80px] mt-[35px]">
-        <div className='flex gap-[300px] items-center justify-center'>
+      <div className="container mx-auto">
+        <div className='grid grid-cols-3 gap-4 mt-10 sm:grid-cols-1 md:grid-cols-3 '>
           {tutorials1.map((item) => (
-            <motion.div variants={textVariant(1.1)} className="flex flex-col gap-2" key={item.id}>
+            <motion.div variants={textVariant(1.1)} key={item.id}>
               <img src={item.imgUrl} className="w-[45px] mx-auto" />
-              <p className="text-center text-[15px] font-bold text-white max-w-[174px]">{item.text}</p>
+              <p className="text-center text-[15px] font-bold text-white max-w-[174px] ml-auto mr-auto mt-5">{item.text}</p>
             </motion.div>
           ))}
         </div>
-        <div className='flex gap-[300px] items-center justify-center ml-[3%]'>
+        <div className='grid grid-cols-3 gap-4 mt-10 sm:grid-cols-1 md:grid-cols-3 '>
           {tutorials2.map((item) => (
-            <motion.div variants={textVariant(1.4)} className="flex flex-col gap-2" key={item.id}>
+            <motion.div variants={textVariant(1.4)} key={item.id}>
               <img src={item.imgUrl} className="w-[45px] mx-auto" />
-              <p className="text-center text-[15px] font-bold text-white max-w-[174px]">{item.text}</p>
+              <p className="text-center text-[15px] font-bold text-white max-w-[174px] ml-auto mr-auto mt-5">{item.text}</p>
             </motion.div>
           ))}
         </div>
