@@ -8,7 +8,7 @@ export default function Platforms() {
       <div className="overflow-hidden">
         <div className="gradient-1" />
         <div className="gradient-2" />
-        <div className="bg-[#EBEDEE] min-h-[60vh] px-[355px] py-[110px]">
+        <div className="bg-[#EBEDEE] min-h-[45vh] px-[355px] py-[110px]">
 
           <h1 className="text-black font-montserrat font-bold text-[30px] mb-[17px]">BAIXE AS PLATAFORMAS DE TRADING</h1>
           <p className="font-montserrat text-[2 0px] text-[#3C3400] max-w-[707px]">

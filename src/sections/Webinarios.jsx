@@ -13,7 +13,7 @@ export default function Webinarios() {
         viewport={{ once: false, amount: 0.25 }}
         className="overflow-hidden"
       >
-        <div className="min-h-screen bg-[url('/bg-webinararios.png')] bg-cover bg-no-repeat">
+        <div className="min-h-screen-[50vh] bg-[url('/bg-webinararios.png')] bg-cover bg-no-repeat">
           <motion.div
             variants={fadeIn('right', 'tween', 0.2, 1)}
             className="flex flex-col gap-6 font-poppins text-white p-[170px]"
@@ -28,7 +28,7 @@ export default function Webinarios() {
           </motion.div>
           <motion.div
             variants={fadeIn('down', 'tween', 0.2, 1)}
-            className="flex gap-[20px] items-center bg-[#C6AA0E] w-[315px] h-[70px] px-5 py-5 rounded-[8px]  opacity-80 absolute -bottom-[925px] right-[15px]"
+            className="flex gap-[20px] items-center bg-[#C6AA0E] w-[315px] h-[70px] px-5 py-5 rounded-[8px]  opacity-80 absolute -bottom-[650px] right-[15px]"
           >
             <img src="/calendar.png" alt="Agenda icon" />
             <p className="font-nunito font-semibold px-3 text-white max-w-[205px] text-[13px]">Agenda com diversos horários em inglês, espanhol e português.</p>

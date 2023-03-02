@@ -2,7 +2,7 @@ import {faq} from '../constants/index'
 
 export default function Faq() {
   return (
-    <section className="bg-[#EBEDEE] min-h-[80vh] py-[20px] px-[170px]">
+    <section className="bg-[#EBEDEE] min-h-[60vh] py-[20px] px-[170px]">
       <div className="flex gap-[30px] items-center mb-[35px]">
         <h1 className="font-bold text-black text-[45px] font-poppins">FAQ</h1>
         <div className="w-[400px] h-[1px] bg-[#000]" />

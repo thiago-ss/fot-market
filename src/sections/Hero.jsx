@@ -5,7 +5,7 @@ import { textVariant } from '../utils/motion';
 export default function Hero() {
   return (
     <section
-      className="bg-[url('/bg-paralax1.jpg')] min-h-[65vh] bg-cover w-full bg-no-repeat pt-[25px]"
+      className="bg-[url('/bg-paralax1.jpg')] min-h-[50vh] bg-cover w-full bg-no-repeat pt-[25px]"
       id='hero'
     >
       <motion.div 
