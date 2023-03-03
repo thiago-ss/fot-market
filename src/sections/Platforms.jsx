@@ -8,35 +8,35 @@ export default function Platforms() {
       <div className="overflow-hidden">
         <div className="gradient-1" />
         <div className="gradient-2" />
-        <div className="bg-[#EBEDEE] h-[450px] px-[355px] py-[110px]">
+        <div className="bg-[#EBEDEE] h-[450px] px-[355px] py-[110px] sm:h-[800px]">
 
           <h1 className="text-black font-montserrat font-bold text-[30px] mb-[17px]">BAIXE AS PLATAFORMAS DE TRADING</h1>
           <p className="font-montserrat text-[2 0px] text-[#3C3400] max-w-[707px]">
             O METATRADER 5 é uma plataforma para realizar transações de forma rápida e prática, contendo todos os ativos. Utilizada por cerca de 7 milhões de
             pessoas no planeta, usada tanto por especialistas quanto por investidores menos experientes.
           </p>
-          <img src="/line.svg" alt="Line" className=" mt-5 mb-5" />
-          <div className="flex items-center gap-[45px]">
-            <img src="/Metatrade-SVG.svg" alt="Metatrader 5 logo" className="w-60" />
-            <div className="text-center mt-[10px]">
-              <img src="/windows.svg" alt="Windows logo" />
-              <p className="text-black">PC</p>
+          <img src="/line.svg" alt="Line" className=" mt-5 mb-5 " />
+          <div className="grid grid-cols-6 gap-1 max-w-[850px]">
+            <img src="/Metatrade-SVG.svg" alt="Metatrader 5 logo" className="w-[140px] " />
+            <div className="mr-auto ml-auto">
+              <img src="/windows.svg" alt="Windows logo" className=" w-[50px] h-[50px]"/>
+              <p className="text-black text-center mt-2">PC</p>
             </div>
-            <div className="text-center">
-              <img src="/android.svg" alt="Android logo" className="ml-[5px]" />
-              <p className="text-black">Android</p>
+            <div className="mr-auto ml-auto">
+              <img src="/android.svg" alt="Android logo" className=" w-[50px] h-[50px]" />
+              <p className="text-black text-center mt-2">Android</p>
             </div>
-            <div className="text-center">
-              <img src="/mac-desktop.svg" alt="Mac logo" />
-              <p className="text-black">MAC</p>
+            <div className="mr-auto ml-auto">
+              <img src="/mac-desktop.svg" alt="Mac logo" className=" w-[50px] h-[50px]"/>
+              <p className="text-black text-center mt-2">MAC</p>
             </div>
-            <div className="text-center">
-              <img src="/ios.svg" alt="iOS logo" />
-              <p className="  text-black">iOS</p>
+            <div className="mr-auto ml-auto">
+              <img src="/ios.svg" alt="iOS logo" className=" w-[50px] h-[50px]"/>
+              <p className="  text-black text-center mt-2">iOS</p>
             </div>
-            <div className="text-center">
-              <img src="/web.svg" alt="Web logo" />
-              <p className="text-black">Web</p>
+            <div className="mr-auto ml-auto">
+              <img src="/web.svg" alt="Web logo" className=" w-[50px] h-[50px]"/>
+              <p className="text-black text-center mt-2">Web</p>
             </div>
 
           </div>

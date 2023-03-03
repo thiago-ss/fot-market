@@ -3,7 +3,7 @@ import { about } from '../constants'
 
 export default function About() {
   return (
-    <section className="h-[600px] bg-[#181818] py-[50px] flex flex-col items-center justify-around ">
+    <section className="h-[600px] bg-[#181818] py-[50px] flex flex-col items-center justify-around sm:h-[1000px] md:h-[600px]">
 
       <h1 className="uppercase font-bold text-[45px] text-center text-white sm:text-[30px] md:text-[35px]">sobre a fot</h1>
 

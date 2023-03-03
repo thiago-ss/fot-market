@@ -7,7 +7,7 @@ export default function News() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="h-[500px] font-poppins flex justify-around pt-[50px] bg-[#EBEDEE]"
+      className="h-[500px] font-poppins flex justify-around pt-[50px] bg-[#EBEDEE] sm:h-[600px] md:h-[600px]"
     >
       <div className="gradient-5"/>
       <motion.div

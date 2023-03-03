@@ -11,7 +11,7 @@ const SLIDE_COUNT = 4;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const Carousel = () => (
-  <section className="bg-[#181818] font-poppins p-5 h-[750px] pb-[50px]">
+  <section className="bg-[#181818] font-poppins p-5 h-[750px] pb-[50px] sm:h-[1100px] md:h-[1100px]">
     <motion.div
       initial="hidden"
       whileInView="show"
