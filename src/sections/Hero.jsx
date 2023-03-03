@@ -16,7 +16,7 @@ export default function Hero() {
       >
         <motion.h1 
           variants={textVariant(0.4)} 
-          className="max-w-[500px] text-[30px] font-bold leading-[48px] sm:text-[18px] "
+          className="max-w-[500px] text-[30px] font-bold leading-[48px] sm:text-[20px] "
         >
           NEGOCIAÇÃO FOREX, ÍNDICES,
           CFDs CRIPTOS E MUITO MAIS
@@ -24,13 +24,13 @@ export default function Hero() {
 
         <motion.p 
           variants={textVariant(0.5)} 
-          className="max-w-[530px] text-[20px] font-bold mt-[12px] leading-[26px] mb-[20px] sm:text-[13px]"
+          className="max-w-[530px] text-[20px] font-bold mt-[12px] leading-[26px] mb-[20px] sm:text-[14px]"
         >
           Negocie em qualquer mercado, de qualquer lugar
           a qualquer horário e conte com nosso Suporte 12/6
         </motion.p>
         
-        <motion.div className="grid grid-cols-3 gap-3 sm:grid-cols-1" variants={textVariant(0.6)} >
+        <motion.div className="grid grid-cols-3 gap-5 sm:grid-cols-1" variants={textVariant(0.6)} >
           <button className="button2 bg-[#C6AA0E] text-[#3C3400]">Abra conta demo</button>
           <button className="button2 bg-[#E0DCDC] text-[#404040]">Abra conta real</button>
           <button className="button2 bg-[#A0A0A0] text-[#3C3400]">Negocie 24/7</button>

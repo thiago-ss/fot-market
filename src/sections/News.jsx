@@ -7,7 +7,7 @@ export default function News() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="h-[500px] font-poppins flex justify-around pt-[50px] bg-[#EBEDEE] sm:h-[600px] md:h-[600px]"
+      className="h-[500px] font-poppins flex justify-around pt-[50px] bg-[#EBEDEE] sm:h-[465px] md:h-[600px]"
     >
       <div className="gradient-5"/>
       <motion.div
@@ -15,13 +15,13 @@ export default function News() {
         className="flex flex-col gap-[70px]"
       >
         <div className="flex flex-col gap-[30px]">
-          <h1 className="uppercase font-bold text-[45px] text-[#C6AA0E]">notícias</h1>
-          <p className="text-[20px] font-bold max-w-[467px]">
+          <h1 className="uppercase font-bold text-[45px] text-[#C6AA0E] sm:ml-[10px] sm:text-[30px]">notícias</h1>
+          <p className="text-[20px] font-bold max-w-[467px] sm:ml-[10px] sm:text-[16px]">
             Acompanhe as notícias e o calendário econômico e fique informado das ocorrências, índices e
             relatórios influenciadores do comportamento do mercado, através do nosso portal de notícias.
           </p>
         </div>
-        <a className="py-[20px] bg-[#C6AA0E] text-white rounded-lg text-center font-bold w-[200px] sm:mb-[30px] md:mb-[30px]">Money Now News</a>
+        <a className="py-[20px] bg-[#C6AA0E] text-white rounded-lg text-center font-bold w-[200px] sm:mb-[30px] sm:ml-[10px] md:mb-[30px]">Money Now News</a>
       </motion.div>
       <img src="/bg-news.png" alt="Smartphone" className='h-[450px] w-[400px] sm:hidden md:hidden' />
     </motion.section>

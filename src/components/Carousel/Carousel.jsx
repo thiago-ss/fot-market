@@ -18,7 +18,7 @@ const Carousel = () => (
       viewport={{ once: false, amount: 0.25 }}
      
     >
-      <motion.h1 variants={textVariant(0.5)} className="text-white font-bold text-[45px] text-center mt-[30px]">TUTORIAIS</motion.h1>
+      <motion.h1 variants={textVariant(0.5)} className="text-white font-bold text-[45px] text-center mt-[30px] sm:text-[30px]">TUTORIAIS</motion.h1>
 
       <motion.div
         variants={zoomIn(0.8, 1)}
