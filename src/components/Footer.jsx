@@ -3,15 +3,15 @@ import logo from '/logo.png'
 
 export default function Footer() {
   return (
-    <section className="h-[650px] bg-[#181818] py-[50px] flex flex-col px-[14%] sm:px-[10px] sm:h-[1080px]">
+    <section className="h-[650px] bg-[#181818] py-[50px] flex flex-col px-[14%] sm:px-[10px] sm:h-[1080px] md:px-[10px] md:h-[1080px]">
       <div className="lg:flex lg:flex-col lg:justify-center xl:flex xl:flex-col xl:justify-center 
       2xl:flex 2xl:flex-col 2xl:justify-center items-center gap-[20px]">
         <a href="">
           <img src={logo} alt="FOT Markets logo" />
         </a>
-        <div className='footer-line' />
-        <h2 className='uppercase text-white font-bold text-[25px] mb-[30px] sm:mt-[10px]'>fale conosco</h2>
-        <div className='grid grid-cols-2 gap-[60px] text-[18px] font-bold font-poppins mb-[20px] sm:grid-cols-1'>
+        <div className='footer-line sm:w-[100%] md:w-[100%]' />
+        <h2 className='uppercase text-white font-bold text-[25px] mb-[30px] sm:mt-[10px] md:mt-[10px]'>fale conosco</h2>
+        <div className='grid grid-cols-2 gap-[60px] text-[18px] font-bold font-poppins mb-[20px] sm:grid-cols-1 md:grid-cols-1'>
           <div className='grid grid-cols-1 gap-[40px]'>
             {getInTouch1.map((item) => (
               <div key={item.id} className='flex gap-[10px]'>
@@ -29,7 +29,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <div className="footer-line" />
+        <div className="footer-line sm:w-[100%] md:w-[100%]" />
       </div>
       <div className="flex flex-col font-montserrat font-bold mt-[20px] mb-[10px]">
           <h1 className='text-white text-[25px]'>REGULAMENTAÇÃO</h1>

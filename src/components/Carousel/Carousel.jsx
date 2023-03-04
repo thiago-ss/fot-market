@@ -11,7 +11,7 @@ const SLIDE_COUNT = 4;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const Carousel = () => (
-  <section className="bg-[#181818] font-poppins p-5 h-[750px] pb-[50px] sm:h-[1100px] md:h-[1100px]">
+  <section className="bg-[#181818] font-poppins p-5 h-[750px] pb-[50px] sm:h-[1100px] md:h-[730px]">
     <motion.div
       initial="hidden"
       whileInView="show"
@@ -33,7 +33,7 @@ const Carousel = () => (
           {tutorials1.map((item) => (
             <motion.div variants={textVariant(1.1)} key={item.id}>
               <img src={item.imgUrl} className="w-[45px] mx-auto" />
-              <p className="text-center text-[15px] font-bold text-white max-w-[174px] ml-auto mr-auto mt-5">{item.text}</p>
+              <p className="text-center text-[15px] font-bold text-white max-w-[174px] ml-auto mr-auto mt-5 md:text-[13px]">{item.text}</p>
             </motion.div>
           ))}
         </div>
@@ -41,7 +41,7 @@ const Carousel = () => (
           {tutorials2.map((item) => (
             <motion.div variants={textVariant(1.4)} key={item.id}>
               <img src={item.imgUrl} className="w-[45px] mx-auto" />
-              <p className="text-center text-[15px] font-bold text-white max-w-[174px] ml-auto mr-auto mt-5">{item.text}</p>
+              <p className="text-center text-[15px] font-bold text-white max-w-[174px] ml-auto mr-auto mt-5 md:text-[13px]">{item.text}</p>
             </motion.div>
           ))}
         </div>

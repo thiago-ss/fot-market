@@ -4,16 +4,16 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full shadow bg-[#181818] font-montserrat fixed z-10 p-[10px]">
-      <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
+    <nav className="w-full shadow bg-[#181818] font-montserrat fixed z-10 p-[10px] sm:max-w-[320px] md:max-w-[375px]">
+      <div className="justify-between px-4 mx-auto xl:items-center xl:flex xl:px-8 2xl:items-center 2xl:flex 2xl:px-8">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="flex items-center justify-between py-3 xl:py-5 xl:block 2xl:py-5 2xl:block">
             <a href="#">
               <img src="/logo.png" alt="Logo" />
             </a>
-            <div className="md:hidden">
+            <div className="xl:hidden 2xl:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-gray-700 rounded-2xl outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -51,10 +51,10 @@ export default function Header() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+            className={`flex-1 justify-self-center pb-3 mt-8 xl:block xl:pb-0 xl:mt-0 2xl:block 2xl:pb-0 2xl:mt-0 ${navbar ? "block" : "hidden"
               }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-semibold">
+            <ul className="items-center justify-center space-y-8 xl:flex xl:space-x-6 xl:space-y-0 2xl:flex 2xl:space-x-6 2xl:space-y-0 font-semibold">
               <li className="text-white hover:text-indigo-200">
                 <a href="#">Início</a>
               </li>
@@ -69,14 +69,14 @@ export default function Header() {
               </li>
             </ul>
 
-            <div className="mt-3 space-y-2 lg:hidden md:inline-block">
+            <div className="mt-3 space-y-2 xl:hidden 2xl:hidden">
               <button className="button1 w-full">
                 Chat ao vivo
               </button>
             </div>
           </div>
         </div>
-        <div className="hidden space-x-2 md:inline-block">
+        <div className="hidden space-x-2 xl:inline-block 2xl:inline-block">
           <div className="flex justify-center items-center ">
             <div className="justify-center items-center flex gap-5">
               <img src="/person.svg" alt="Person icon" />
