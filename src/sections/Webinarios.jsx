@@ -29,7 +29,7 @@ export default function Webinarios() {
           <motion.div
             variants={fadeIn('down', 'tween', 0.2, 1)}
             className="flex gap-[20px] items-center bg-[#C6AA0E] w-[315px] h-[70px] px-5 py-5 rounded-[8px]  opacity-80 absolute -bottom-[650px] right-[15px] 
-            sm:-bottom-[1390px] md:-bottom-[910px] md:-left-1 lg:-bottom-[500px] xl:-bottom-[900px]"
+            sm:-bottom-[1390px] md:-bottom-[910px] md:-left-1 lg:-bottom-[500px] xl:-bottom-[500px]"
           >
             <img src="/calendar.png" alt="Agenda icon" />
             <p className="font-nunito font-semibold px-3 text-white max-w-[205px] text-[13px]">Agenda com diversos horários em inglês, espanhol e português.</p>
