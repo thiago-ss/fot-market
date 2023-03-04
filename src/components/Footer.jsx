@@ -3,15 +3,16 @@ import logo from '/logo.png'
 
 export default function Footer() {
   return (
-    <section className="h-[650px] bg-[#181818] py-[50px] flex flex-col px-[14%]">
-      <div className="flex flex-col justify-center items-center gap-[20px]">
+    <section className="h-[650px] bg-[#181818] py-[50px] flex flex-col px-[14%] sm:px-[10px] sm:h-[1080px]">
+      <div className="lg:flex lg:flex-col lg:justify-center xl:flex xl:flex-col xl:justify-center 
+      2xl:flex 2xl:flex-col 2xl:justify-center items-center gap-[20px]">
         <a href="">
           <img src={logo} alt="FOT Markets logo" />
         </a>
         <div className='footer-line' />
-        <h2 className='uppercase text-white font-bold text-[25px] mb-[30px]'>fale conosco</h2>
-        <div className='flex gap-[60px] text-[18px] font-bold font-poppins mb-[20px]'>
-          <div className='flex flex-col gap-[40px]'>
+        <h2 className='uppercase text-white font-bold text-[25px] mb-[30px] sm:mt-[10px]'>fale conosco</h2>
+        <div className='grid grid-cols-2 gap-[60px] text-[18px] font-bold font-poppins mb-[20px] sm:grid-cols-1'>
+          <div className='grid grid-cols-1 gap-[40px]'>
             {getInTouch1.map((item) => (
               <div key={item.id} className='flex gap-[10px]'>
                 <img src={item.imgUrl} />
@@ -19,7 +20,7 @@ export default function Footer() {
               </div>
             ))}
           </div>
-          <div className="flex flex-col gap-[40px]">
+          <div className="grid grid-cols-1 gap-[40px]">
             {getInTouch2.map((item) => (
               <div key={item.id} className='flex gap-[10px]'>
                 <img src={item.imgUrl} />
@@ -37,20 +38,20 @@ export default function Footer() {
             financeiros sob o número de licença 00000000000000
           </p>
       </div>
-      <div className="flex justify-between font-poppins font-bold text-white">
-        <div className='flex flex-col max-w-[250px] gap-5'>
+      <div className="lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between font-poppins font-bold text-white">
+        <div className='grid grid-cols-1 max-w-[250px] gap-5'>
           {footerContent1.map((item, index) => (
             <p>{item}</p>
           ))}
         </div>
 
-        <div className='flex flex-col max-w-[250px] gap-5'>
+        <div className='grid grid-cols-1 max-w-[250px] gap-5'>
           {footerContent2.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
         </div>
 
-        <div className='flex flex-col max-w-[250px] gap-5'>
+        <div className='grid grid-cols-1 max-w-[250px] gap-5'>
           {footerContent3.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
