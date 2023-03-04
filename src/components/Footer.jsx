@@ -3,7 +3,7 @@ import logo from '/logo.png'
 
 export default function Footer() {
   return (
-    <section className="h-[650px] bg-[#181818] py-[50px] flex flex-col px-[14%] sm:px-[10px] sm:h-[1080px] md:px-[10px] md:h-[1080px]">
+    <section className="h-[650px] bg-[#181818] py-[50px] flex flex-col px-[14%] sm:px-[10px] sm:h-[1080px] md:px-[10px] md:h-[1080px] lg:h-[760px]">
       <div className="lg:flex lg:flex-col lg:justify-center xl:flex xl:flex-col xl:justify-center 
       2xl:flex 2xl:flex-col 2xl:justify-center items-center gap-[20px]">
         <a href="">
@@ -11,7 +11,7 @@ export default function Footer() {
         </a>
         <div className='footer-line sm:w-[100%] md:w-[100%]' />
         <h2 className='uppercase text-white font-bold text-[25px] mb-[30px] sm:mt-[10px] md:mt-[10px]'>fale conosco</h2>
-        <div className='grid grid-cols-2 gap-[60px] text-[18px] font-bold font-poppins mb-[20px] sm:grid-cols-1 md:grid-cols-1'>
+        <div className='grid grid-cols-2 gap-[60px] text-[18px] font-bold font-poppins mb-[20px] sm:grid-cols-1 md:grid-cols-1 lg:gap-[190px]'>
           <div className='grid grid-cols-1 gap-[40px]'>
             {getInTouch1.map((item) => (
               <div key={item.id} className='flex gap-[10px]'>
@@ -39,19 +39,19 @@ export default function Footer() {
           </p>
       </div>
       <div className="lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between font-poppins font-bold text-white">
-        <div className='grid grid-cols-1 max-w-[250px] gap-5'>
+        <div className='grid grid-cols-1 max-w-[250px] gap-5 lg:max-w-[260px]'>
           {footerContent1.map((item, index) => (
             <p>{item}</p>
           ))}
         </div>
 
-        <div className='grid grid-cols-1 max-w-[250px] gap-5'>
+        <div className='grid grid-cols-1 max-w-[250px] gap-5 lg:max-w-[260px]'>
           {footerContent2.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
         </div>
 
-        <div className='grid grid-cols-1 max-w-[250px] gap-5'>
+        <div className='grid grid-cols-1 max-w-[250px] gap-5 lg:max-w-[260px]'>
           {footerContent3.map((item, index) => (
             <p key={index}>{item}</p>
           ))}

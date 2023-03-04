@@ -4,7 +4,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 export default function Negotiation() {
   return (
-    <section className="h-[655px] w-full bg-black font-poppins flex sm:h-[700px] md:h-[700px]">
+    <section className="h-[655px] w-full bg-black font-poppins flex sm:h-[700px] md:h-[700px] lg:h-[790px] xl:h-[880px]">
       <motion.div
         initial="hidden"
         whileInView="show"
@@ -22,7 +22,7 @@ export default function Negotiation() {
               variants={fadeIn('right', 'tween', 1, 0.7)}
             >
               <img src="/check-icon-2.svg" alt="Check icon" className='w-[15px]'/>
-              <p className="text-white font-bold text-[20px] max-w-[800px] sm:max-w-[100%] sm:text-[11px] md:max-w-[100%] md:text-[11px]">{item}</p>
+              <p className="text-white font-bold text-[20px] max-w-[800px] sm:max-w-[100%] sm:text-[11px] md:max-w-[100%] md:text-[11px] lg:text-[15px]">{item}</p>
             </motion.div>
           ))}
           <motion.button variants={fadeIn('up', 'tween', 1.3, 0.5)} href="#" className="button2 mt-[40px] bg-[#C6AA0E] text-[#3C3400] mb-10 md:mt-[10px]">Abra sua conta</motion.button>

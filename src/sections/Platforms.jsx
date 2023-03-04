@@ -4,14 +4,15 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 
 export default function Platforms() {
   return (
-    <section>
-      <div className="overflow-hidden">
+    <section className="bg-[#EBEDEE]">
+      <div className="overflow-hidden ">
         <div className="lg:gradient-1 xl:gradient-1 2xl:gradient-1" />
         <div className="lg:gradient-2 xl:gradient-2 2xl:gradient-2" />
-        <div className="bg-[#EBEDEE] h-[450px] px-[355px] py-[110px] sm:h-[960px] sm:px-[10px] sm:py-[10px] md:h-[570px] md:px-[10px] md:py-[10px]">
+        <div className="bg-[#EBEDEE] h-[450px] px-[355px] py-[110px] 
+        sm:h-[960px] sm:px-[10px] sm:py-[10px] md:h-[570px] md:px-[10px] md:py-[10px] lg:h-[360px] lg:px-[10px] lg:py-[10px] lg:mr-[30px] lg:ml-[30px] xl:h-[340px] xl:py-[10px] xl:px-[170px]">
 
-          <h1 className="text-black font-montserrat font-bold text-[30px] mb-[17px] sm:text-[28px]">BAIXE AS PLATAFORMAS DE TRADING</h1>
-          <p className="font-montserrat text-[20px] text-[#3C3400] max-w-[707px] sm:text-[16px] md:text-[17px]">
+          <h1 className="text-black font-montserrat font-bold text-[30px] mb-[17px] sm:text-[28px] lg:mt-10">BAIXE AS PLATAFORMAS DE TRADING</h1>
+          <p className="font-montserrat text-[20px] text-[#3C3400] max-w-[707px] sm:text-[16px] md:text-[17px] lg:text-[19px]">
             O METATRADER 5 é uma plataforma para realizar transações de forma rápida e prática, contendo todos os ativos. Utilizada por cerca de 7 milhões de
             pessoas no planeta, usada tanto por especialistas quanto por investidores menos experientes.
           </p>
