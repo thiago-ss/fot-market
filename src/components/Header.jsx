@@ -4,7 +4,7 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full shadow bg-[#181818] font-montserrat fixed z-10 p-[10px] sm:max-w-[320px] md:max-w-[375px]">
+    <nav className="w-full shadow bg-[#181818] font-montserrat fixed z-10 p-[10px] sm:max-w-[320px] md:max-w-[100%]">
       <div className="justify-between px-4 mx-auto xl:items-center xl:flex xl:px-8 2xl:items-center 2xl:flex 2xl:px-8">
         <div>
           <div className="flex items-center justify-between py-3 xl:py-5 xl:block 2xl:py-5 2xl:block">
