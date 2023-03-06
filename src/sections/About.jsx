@@ -7,7 +7,7 @@ export default function About() {
 
       <h1 className="uppercase font-bold text-[45px] text-center text-white sm:text-[30px] md:text-[32px]">sobre a fot</h1>
 
-      <p className="text-white font-bold text-center text-[20px] sm:text-[16px] md:text-[16px] lg:text-[18px] lg:max-w-[700px] xl:max-w-[1100px] 2xl:max-w-[1100px]">
+      <p className="text-white font-bold text-center text-[20px] sm:text-[16px] md:text-[16px] md:max-w-[350px] lg:text-[18px] lg:max-w-[700px] xl:max-w-[1100px] 2xl:max-w-[1100px]">
         Nascemos grandes, ousados e precisos. Fazemos parte de um grande grupo de empresas, que desde 2016 se posicionou como um dos maiores
         grupos de investimento a nível internacional, o que nos credenciou a crescer tão rapidamente a expandir este crescimento como corretora de FOREX,
         totalmente regulamentada. Atuamos hoje em Portugal, Chile, Argentina e Colômbia, mas em breve estaremos em toda a América Latina, Europa e EUA.
@@ -17,7 +17,7 @@ export default function About() {
         {about.map((item) => (
           <div key={item.id}>
             <img src={item.imgUrl} alt="icon" className="max-w-[42.51px] h-[50px] mx-auto" />
-            <p className="text-center text-white font-bold">{item.text}</p>
+            <p className="text-center text-white font-bold md:mb-10 sm:mb-10">{item.text}</p>
           </div>
         ))}
       </div>
