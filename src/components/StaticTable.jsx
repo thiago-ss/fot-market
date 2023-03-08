@@ -174,7 +174,7 @@ function StaticTable() {
                 .map((item) => (
                   <tr
                     key={item.key}
-                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#1B4A64] hover:text-white"
+                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#C6AA0E] hover:text-white"
                   >
                     <td className="p-2 custom-row">{item.coin}</td>
 
@@ -329,7 +329,7 @@ function StaticTable() {
                 .map((item) => (
                   <tr
                     key={item.key}
-                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#1B4A64] hover:text-white"
+                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#C6AA0E] hover:text-white"
                   >
                     <td className="p-2 custom-row">{item.coin}</td>
 
@@ -484,7 +484,7 @@ function StaticTable() {
                 .map((item) => (
                   <tr
                     key={item.key}
-                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#1B4A64] hover:text-white"
+                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#C6AA0E] hover:text-white"
                   >
                     <td className="p-2 custom-row">{item.coin}</td>
 

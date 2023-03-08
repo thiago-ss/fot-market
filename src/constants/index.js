@@ -485,7 +485,7 @@ export const standardAcount = [
     minimumFluctuation: "0.00001",
     lowSpread: "0.01734",
     avarageSpread: "0.0241",
-    longSwap: "-418,45",
+    longSwap: "-418.45",
     shortSwap: "108.05",
     value: "100000",
     level: "0",
