@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { standardAcount } from "../constants/index";
-import { arrowDown, arrowUp } from "../../public/index";
+import arrowDown from "/arrow-down.svg";
+import arrowUp from "/arrow-up.svg";
 
 function StaticTable() {
   const [order, setOrder] = useState(1);
@@ -49,29 +50,34 @@ function StaticTable() {
 
   if (selectValue === "value1") {
     return (
-      <section>
+      <section className="overflow-auto">
         <div className="container mx-auto">
-          <div className="flex">
-            <select
-              value={selectValue}
-              onChange={(e) => {
-                setSelectValue(e.target.value);
-              }}
-              className="mt-10 border-2 border-[#000] text-center w-[80px]"
-            >
-              <option value="value1">10</option>
+          <div className="flex items-center justify-between sm:flex-wrap sm:justify-center md:flex-wrap md:justify-center">
+            <div className="flex gap-[8px]">
+              <h3 className="mt-10">Mostrar</h3>
+              <select
+                value={selectValue}
+                onChange={(e) => {
+                  setSelectValue(e.target.value);
+                }}
+                className="mt-10 border-2 border-[#000] text-center w-[80px]"
+              >
+                <option value="value1">10</option>
 
-              <option value="value2">25</option>
-              <option value="value3">50</option>
-              {/* <option value="value4">100</option> */}
-            </select>
-
-            <input
-              onChange={(e) => setQuery(e.target.value)}
-              type="search"
-              placeholder="Pesquisar"
-              className=" ml-auto mt-10 border-2 border-[#000] text-center"
-            />
+                <option value="value2">25</option>
+                <option value="value3">50</option>
+                {/* <option value="value4">100</option> */}
+              </select>
+            </div>
+            <div className="flex gap-[8px]">
+              <h3 className="mt-10">Pesquisar</h3>
+              <input
+                onChange={(e) => setQuery(e.target.value)}
+                type="search"
+                placeholder="Par de moedas"
+                className="mt-10 border-2 border-[#000] text-center"
+              />
+            </div>
           </div>
           <table className="table-auto mx-auto p-5 my-10">
             <thead>
@@ -204,29 +210,34 @@ function StaticTable() {
 
   if (selectValue === "value2") {
     return (
-      <section>
+      <section className="overflow-auto">
         <div className="container mx-auto">
-          <div className="flex">
-            <select
-              value={selectValue}
-              onChange={(e) => {
-                setSelectValue(e.target.value);
-              }}
-              className="mt-10 border-2 border-[#000] text-center w-[80px]"
-            >
-              <option value="value1">10</option>
+          <div className="flex items-center justify-between sm:flex-wrap sm:justify-center md:flex-wrap md:justify-center">
+            <div className="flex gap-[8px]">
+              <h3 className="mt-10">Mostrar</h3>
+              <select
+                value={selectValue}
+                onChange={(e) => {
+                  setSelectValue(e.target.value);
+                }}
+                className="mt-10 border-2 border-[#000] text-center w-[80px]"
+              >
+                <option value="value1">10</option>
 
-              <option value="value2">25</option>
-              <option value="value3">50</option>
-              {/* <option value="value4">100</option> */}
-            </select>
-
-            <input
-              onChange={(e) => setQuery(e.target.value)}
-              type="search"
-              placeholder="Pesquisar"
-              className=" ml-auto mt-10 border-2 border-[#000] text-center"
-            />
+                <option value="value2">25</option>
+                <option value="value3">50</option>
+                {/* <option value="value4">100</option> */}
+              </select>
+            </div>
+            <div className="flex gap-[8px]">
+              <h3 className="mt-10">Pesquisar</h3>
+              <input
+                onChange={(e) => setQuery(e.target.value)}
+                type="search"
+                placeholder="Par de moedas"
+                className="mt-10 border-2 border-[#000] text-center"
+              />
+            </div>
           </div>
           <table className="table-auto mx-auto p-5 my-10">
             <thead>
@@ -359,29 +370,34 @@ function StaticTable() {
 
   if (selectValue === "value3") {
     return (
-      <section>
+      <section className="overflow-auto">
         <div className="container mx-auto">
-          <div className="flex">
-            <select
-              value={selectValue}
-              onChange={(e) => {
-                setSelectValue(e.target.value);
-              }}
-              className="mt-10 border-2 border-[#000] text-center w-[80px]"
-            >
-              <option value="value1">10</option>
+          <div className="flex items-center justify-between sm:flex-wrap sm:justify-center md:flex-wrap md:justify-center">
+            <div className="flex gap-[8px]">
+              <h3 className="mt-10">Mostrar</h3>
+              <select
+                value={selectValue}
+                onChange={(e) => {
+                  setSelectValue(e.target.value);
+                }}
+                className="mt-10 border-2 border-[#000] text-center w-[80px]"
+              >
+                <option value="value1">10</option>
 
-              <option value="value2">25</option>
-              <option value="value3">50</option>
-              {/* <option value="value4">100</option> */}
-            </select>
-
-            <input
-              onChange={(e) => setQuery(e.target.value)}
-              type="search"
-              placeholder="Pesquisar"
-              className=" ml-auto mt-10 border-2 border-[#000] text-center"
-            />
+                <option value="value2">25</option>
+                <option value="value3">50</option>
+                {/* <option value="value4">100</option> */}
+              </select>
+            </div>
+            <div className="flex gap-[8px]">
+              <h3 className="mt-10">Pesquisar</h3>
+              <input
+                onChange={(e) => setQuery(e.target.value)}
+                type="search"
+                placeholder="Par de moedas"
+                className="mt-10 border-2 border-[#000] text-center"
+              />
+            </div>
           </div>
           <table className="table-auto mx-auto p-5 my-10">
             <thead>

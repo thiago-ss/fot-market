@@ -8,7 +8,7 @@ export default function Header() {
       <div className="justify-between px-4 mx-auto xl:items-center xl:flex xl:px-8 2xl:items-center 2xl:flex 2xl:px-8">
         <div>
           <div className="flex items-center justify-between py-3 xl:py-5 xl:block 2xl:py-5 2xl:block">
-            <a href="#">
+            <a href="#hero">
               <img src="/logo.png" alt="Logo" />
             </a>
             <div className="xl:hidden 2xl:hidden">
@@ -51,28 +51,84 @@ export default function Header() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 xl:block xl:pb-0 xl:mt-0 2xl:block 2xl:pb-0 2xl:mt-0 ${navbar ? "block" : "hidden"
-              }`}
+            className={`flex-1 justify-self-center pb-3 mt-8 xl:block xl:pb-0 xl:mt-0 2xl:block 2xl:pb-0 2xl:mt-0 ${
+              navbar ? "block" : "hidden"
+            }`}
           >
             <ul className="items-center justify-center space-y-8 xl:flex xl:space-x-6 xl:space-y-0 2xl:flex 2xl:space-x-6 2xl:space-y-0 font-semibold">
               <li className="text-white hover:text-indigo-200">
-                <a href="#">Início</a>
+                <a href="#hero">Início</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="#">Quem somos</a>
+                <a href="#about">Quem somos</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="#">Promoções</a>
+                <a href="#negotiation">Condições</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="#">Serviços</a>
+                <button
+                  id="dropdownInformationButton"
+                  data-dropdown-toggle="dropdownInformation"
+                  class="text-[#3c3400] w-[110px] h-[30px] bg-[#c6aa0e] text-[20px] rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
+                  type="button"
+                >
+                  <h1 className="text-[16px] text-center">Serviços</h1>
+                  <svg
+                    class="w-4 h-4 ml-2"
+                    aria-hidden="true"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div
+                  id="dropdownInformation"
+                  class="z-10 hidden bg-[#111111] divide-y rounded-lg shadow w-44"
+                >
+                  <ul
+                    class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                    aria-labelledby="dropdownInformationButton"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 dark:hover:bg-gray-600 text-[14px]"
+                      >
+                        Dashboard
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 dark:hover:bg-gray-600 text-[14px]"
+                      >
+                        Settings
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 dark:hover:bg-gray-600 text-[14px]"
+                      >
+                        Earnings
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
 
             <div className="mt-3 space-y-2 xl:hidden 2xl:hidden">
-              <button className="button1 w-full">
-                Chat ao vivo
-              </button>
+              <button className="button1 w-full">Chat ao vivo</button>
             </div>
           </div>
         </div>
@@ -83,10 +139,8 @@ export default function Header() {
               <img src="/globe.svg" alt="Globe icon" />
               <img src="/questionmark.svg" alt="Question mark icon" />
             </div>
-            <button className="button1 ml-5">
-              Chat ao vivo
-            </button>
-           </div>
+            <button className="button1 ml-5">Chat ao vivo</button>
+          </div>
         </div>
       </div>
     </nav>
