@@ -4,13 +4,13 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 
 export default function Platforms() {
   return (
-    <section className="bg-[#EBEDEE] sm:h-[80vh] md:min-h-[75vh]">
+    <section className="bg-[#EBEDEE] sm:min-h-[80vh] md:min-h-[75vh]">
       <div className="overflow-hidden ">
         <div className="lg:gradient-1 xl:gradient-1 2xl:gradient-1" />
         <div className="lg:gradient-2 xl:gradient-2 2xl:gradient-2" />
         <div
-          className="bg-[#EBEDEE] h-[450px] px-[355px] py-[110px] 
-        sm:h-[960px] sm:px-[10px] sm:py-[10px] md:h-[570px] md:px-[10px] md:py-[10px] lg:h-[360px] lg:px-[10px] lg:py-[10px] lg:mr-[30px] lg:ml-[30px] xl:h-[340px] xl:py-[10px] xl:px-[170px]"
+          className="bg-[#EBEDEE] min-h-[450px] px-[355px] py-[110px] 
+        sm:h-[960px] sm:px-[10px] sm:py-[10px] md:min-h-[570px] md:px-[10px] md:py-[10px] lg:min-h-[360px] lg:px-[10px] lg:py-[10px] lg:mr-[30px] lg:ml-[30px] xl:h-[340px] xl:py-[10px] xl:px-[170px]"
         >
           <h1 className="text-black font-montserrat font-bold text-[30px] mb-[17px] sm:text-[28px] lg:mt-10">
             BAIXE AS PLATAFORMAS DE TRADING
@@ -23,21 +23,21 @@ export default function Platforms() {
           </p>
           <img src="/line.svg" alt="Line" className=" mt-5 mb-5 " />
           <img
-            src="/Metatrade-SVG.svg"
+            src="/MetatraderWeb.png"
             alt="Metatrader 5 logo"
             className="w-[140px] hidden sm:block md:block sm:mx-auto md:mx-auto sm:w-[200px] md:w-[200px]"
           />
-          <div className="grid grid-cols-6 gap-1 max-w-[700px] sm:grid-cols-3 md:grid-cols-5">
+          <div className="grid grid-cols-6 gap-1 max-w-[800px] sm:grid-cols-3 md:grid-cols-5">
             <img
-              src="/Metatrade-SVG.svg"
+              src="/MetatraderWeb.png"
               alt="Metatrader 5 logo"
-              className="w-[140px] sm:w-[200px] sm:hidden md:hidden"
+              className="w-[200px] sm:w-[200px] block sm:hidden md:hidden"
             />
             <div className="mr-auto ml-auto">
               <img
                 src="/windows.svg"
                 alt="Windows logo"
-                className=" w-[50px] h-[50px]"
+                className=" w-[45px] h-[50px]"
               />
               <p className="text-black text-center mt-2">PC</p>
             </div>
