@@ -9,7 +9,7 @@ export default function News() {
       viewport={{ once: false, amount: 0.25 }}
       className="h-[500px] font-poppins flex justify-around pt-[50px] bg-[#EBEDEE] sm:h-[465px] md:h-[480px]"
     >
-      <div className="gradient-5"/>
+      <div className="gradient-5" />
       <motion.div
         variants={fadeIn('down', 'tween', 0.2, 1.2)}
         className="flex flex-col gap-[70px]"
@@ -23,7 +23,7 @@ export default function News() {
         </div>
         <a className="py-[20px] bg-[#C6AA0E] text-white rounded-lg text-center font-bold w-[200px] sm:ml-[10px] md:ml-[10px] lg:ml-[20px]">Money Now News</a>
       </motion.div>
-      <img src="/bg-news.png" alt="Smartphone" className='h-[450px] w-[400px] sm:hidden md:hidden' />
+      <img src="/bg-news.png" alt="Smartphone" className='h-[450px] w-[400px] sm:hidden md:hidden block' />
     </motion.section>
   )
 }

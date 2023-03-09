@@ -1,4 +1,4 @@
-import {faq} from '../constants/index'
+import { faq } from '../constants/index'
 
 export default function Faq() {
   return (

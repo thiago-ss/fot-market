@@ -32,11 +32,11 @@ export default function Footer() {
         <div className="footer-line" />
       </div>
       <div className="flex flex-col font-montserrat font-bold mt-[20px] mb-[10px]">
-          <h1 className='text-white text-[25px]'>REGULAMENTAÇÃO</h1>
-          <p className='text-[14px] text-[#7B7B7B]'>
-            Estamos regulamentados pela comissão de serviços
-            financeiros sob o número de licença 00000000000000
-          </p>
+        <h1 className='text-white text-[25px]'>REGULAMENTAÇÃO</h1>
+        <p className='text-[14px] text-[#7B7B7B]'>
+          Estamos regulamentados pela comissão de serviços
+          financeiros sob o número de licença 00000000000000
+        </p>
       </div>
       <div className="lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between font-poppins font-bold text-white">
         <div className='grid grid-cols-1 max-w-[250px] gap-5 lg:max-w-[260px]'>

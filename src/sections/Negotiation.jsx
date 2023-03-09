@@ -4,7 +4,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 export default function Negotiation() {
   return (
-    <section id="negotiation" className="min-h-[655px] w-full bg-black font-poppins flex sm:min-h-[700px] md:min-h-[700px] lg:min-h-[790px] xl:min-h-[880px]">
+    <section id="negotiation" className="min-h-[655px] w-full bg-black font-poppins flex sm:min-h-[700px] md:min-h-[700px]  lg:min-h-[790px] xl:min-h-[880px]">
       <motion.div
         initial="hidden"
         whileInView="show"
@@ -21,7 +21,7 @@ export default function Negotiation() {
               className="flex gap-4"
               variants={fadeIn('right', 'tween', 1, 0.7)}
             >
-              <img src="/check-icon-2.svg" alt="Check icon" className='w-[15px] mb-11'/>
+              <img src="/check-icon-2.svg" alt="Check icon" className='w-[15px] mb-12 py-3 sm:pt-1 md:pt-1 md:w-[13px] sm:w-[13px]' />
               <p className="text-white font-bold text-[20px] max-w-[800px] sm:max-w-[100%] sm:text-[11px] md:max-w-[100%] md:text-[11px] lg:text-[15px]">{item}</p>
             </motion.div>
           ))}
