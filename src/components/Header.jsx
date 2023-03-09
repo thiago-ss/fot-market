@@ -69,12 +69,12 @@ export default function Header() {
                 <button
                   id="dropdownInformationButton"
                   data-dropdown-toggle="dropdownInformation"
-                  class="text-[#3c3400] w-[110px] h-[30px] bg-[#c6aa0e] text-[20px] rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
+                  className="text-white md:p-0 sm:p-0 lg:p-0 w-[110px] h-[30px] bg-transparent text-[20px] rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
                   type="button"
                 >
                   <h1 className="text-[16px] text-center">Serviços</h1>
                   <svg
-                    class="w-4 h-4 ml-2"
+                    class="w-10 sm:w-8 sm:h-8 md:w-8 md:h-8 lg:w-8 lg:h-8 h-10 ml-2"
                     aria-hidden="true"
                     fill="none"
                     stroke="currentColor"

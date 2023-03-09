@@ -94,6 +94,13 @@ export const about = [
   },
 ];
 
+export const carouselContent = [
+  "teste1",
+  "teste2",
+  "teste3",
+  "teste4"
+]
+
 export const faq = [
   {
     id: 1,
@@ -166,6 +173,12 @@ export const footerContent3 = [
   "Procedimentos para tratamento de reclamações",
   "Programa de afiliado",
 ];
+
+export const footerContent4 = [
+  "2023 © Copyright - Todos os direitos reservados.",
+  "FotMarkets Rua: nomedarua, 123 - Centro, Curitiba - PRCNPJ: 00.001.234/0001-23",
+  "Design e desenvolvimento por Artev"
+]
 
 export const standardAcount = [
   {

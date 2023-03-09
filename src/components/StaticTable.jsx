@@ -52,7 +52,7 @@ function StaticTable() {
     return (
       <section className="overflow-auto">
         <div className="container mx-auto">
-          <div className="flex justify-between">
+          <div className="flex justify-around">
             <div className="flex sm:flex-wrap sm:justify-center gap-[8px]">
               <h3 className="mt-10">Mostrar</h3>
               <select
@@ -174,13 +174,13 @@ function StaticTable() {
                 <th className="p-2">Níveis de limite e paragem***</th>
               </tr>
             </thead>
-            <tbody className="">
+            <tbody>
               {filter1
                 .filter((item) => item.coin.toLowerCase().includes(query))
                 .map((item) => (
                   <tr
                     key={item.key}
-                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#1B4A64] hover:text-white"
+                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#C6AA0E] hover:text-white"
                   >
                     <td className="p-2 custom-row">{item.coin}</td>
 
@@ -212,7 +212,7 @@ function StaticTable() {
     return (
       <section className="overflow-auto">
         <div className="container mx-auto">
-          <div className="flex justify-between">
+          <div className="flex justify-around">
             <div className="flex sm:flex-wrap sm:justify-center gap-[8px]">
               <h3 className="mt-10">Mostrar</h3>
               <select
@@ -340,7 +340,7 @@ function StaticTable() {
                 .map((item) => (
                   <tr
                     key={item.key}
-                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#1B4A64] hover:text-white"
+                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#C6AA0E] hover:text-white"
                   >
                     <td className="p-2 custom-row">{item.coin}</td>
 
@@ -372,7 +372,7 @@ function StaticTable() {
     return (
       <section className="overflow-auto">
         <div className="container mx-auto">
-          <div className="flex justify-between">
+          <div className="flex justify-around">
             <div className="flex sm:flex-wrap sm:justify-center gap-[8px]">
               <h3 className="mt-10">Mostrar</h3>
               <select
@@ -500,7 +500,7 @@ function StaticTable() {
                 .map((item) => (
                   <tr
                     key={item.key}
-                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#1B4A64] hover:text-white"
+                    className="p-2 text-center divide-x-2 divide-[#000] hover:bg-[#C6AA0E] hover:text-white"
                   >
                     <td className="p-2 custom-row">{item.coin}</td>
 
