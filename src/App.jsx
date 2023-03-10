@@ -11,10 +11,6 @@ import Faq from "./sections/Faq";
 import Footer from "./components/Footer";
 import StaticTable from "./components/StaticTable";
 
-const OPTIONS = {};
-const SLIDE_COUNT = 5;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
-
 function App() {
 	return (
 		<div className="overflow-hidden">
@@ -23,7 +19,7 @@ function App() {
 			<Platforms />
 			<Webinarios />
 			<Analysis />
-			<Carousel slides={SLIDES} options={OPTIONS} />
+			<Carousel />
 			<Negotiation />
 			<News />
 			<About />
